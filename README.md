@@ -14,5 +14,6 @@ npm run compile
 
 ### Step 2
 
-On Windows, add the path of folder containg .exe to Path variables.
-On Linux, chmod your binary a+x to make it executable and then run
+1. On Windows, add the path of folder containg .exe to Path variables
+2. On Linux, chmod your binary a+x to make it executable and then run
+3. Don't know about MacOS
