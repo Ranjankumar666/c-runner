@@ -5,9 +5,6 @@ const fs = require('fs').promises;
 const { Command } = require('commander');
 const checkErrorType = require('./utils/checkErrorType');
 
-/**
- * @type {Array<string>}
- */
 const program = new Command();
 
 program.version('1.0.0', '-v, --version');
