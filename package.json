@@ -1,0 +1,22 @@
+{
+    "name": "c_runner",
+    "version": "2.0.0",
+    "description": "This is a node program to watch c file changes and compile it",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "compile": "pkg . --compress GZip"
+    },
+    "dependencies": {
+        "chalk": "^4.1.1",
+        "chokidar": "^3.5.1",
+        "commander": "^7.2.0"
+    },
+    "bin": "index.js",
+    "author": {
+        "name": "Ranjan Kumar",
+        "email": "typhonazazel@gmail.com",
+        "url": "https://github.com/Ranjankumar666/"
+    }
+}
