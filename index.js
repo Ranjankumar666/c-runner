@@ -35,8 +35,3 @@ if (options.run) {
         }
     });
 }
-
-/**
- *
- * @param {Error} error
- */
